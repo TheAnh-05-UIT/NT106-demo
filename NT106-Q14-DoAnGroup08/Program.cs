@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    internal static class Program
+    internal static class Program 
     {
         /// <summary>
         /// The main entry point for the application.

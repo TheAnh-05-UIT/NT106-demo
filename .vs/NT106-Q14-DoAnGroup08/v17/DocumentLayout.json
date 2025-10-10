@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\",
+  "WorkspaceRootPath": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|c:\\users\\macbook\\nt106-q14-doan\\nt106-q14-doangroup08\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\nt106-q14-doangroup08\\customer_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\customer_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\nt106-q14-doangroup08\\customer_topup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\customer_topup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\nt106-q14-doangroup08\\customer_foodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\customer_foodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\nt106-q14-doangroup08\\customer_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\customer_chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\nt106-q14-doangroup08\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\nt106-q14-doangroup08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|d:\\deadline\\doan\\nt106-q14-doan\\nt106-q14-doangroup08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|d:\\deadline\\doan\\nt106-q14-doan\\nt106-q14-doangroup08\\staff_computermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\staff_computermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|d:\\deadline\\doan\\nt106-q14-doan\\nt106-q14-doangroup08\\admin_employee_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D49C3A9D-3903-4F79-AC23-667551669AE5}|NT106-Q14-DoAnGroup08\\NT106-Q14-DoAnGroup08.csproj|solutionrelative:nt106-q14-doangroup08\\admin_employee_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,89 +22,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Customer_Chat.cs",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_Chat.cs",
-              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Customer_Chat.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_Chat.cs",
-              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Customer_Chat.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:49:48.991Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Customer_TopUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_TopUp.cs",
-              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Customer_TopUp.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_TopUp.cs [Design]",
-              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Customer_TopUp.cs [Design]",
+              "Title": "Admin_Employee_management.cs [Design]",
+              "DocumentMoniker": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Admin_Employee_management.cs",
+              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Admin_Employee_management.cs",
+              "ToolTip": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Admin_Employee_management.cs [Design]*",
+              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Admin_Employee_management.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:38:33.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer_FoodMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_FoodMenu.cs",
-              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Customer_FoodMenu.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_FoodMenu.cs [Design]",
-              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Customer_FoodMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:32:49.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer_Chat.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_Chat.cs",
-              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Customer_Chat.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer_Chat.cs [Design]",
-              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Customer_Chat.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T11:57:32.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer.cs",
-              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Customer.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer.cs",
-              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Customer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAEwDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T11:31:24.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Customer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer.cs",
-              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Customer.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Customer.cs [Design]",
-              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Customer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T11:01:50.492Z",
+              "WhenOpened": "2025-10-10T13:59:56.148Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Program.cs",
+              "DocumentMoniker": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Program.cs",
               "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Program.cs",
-              "ToolTip": "C:\\Users\\MACBOOK\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Program.cs",
+              "ToolTip": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Program.cs",
               "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T11:01:11.729Z"
+              "WhenOpened": "2025-10-10T13:50:54.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Staff_ComputerManagement.cs [Design]",
+              "DocumentMoniker": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Staff_ComputerManagement.cs",
+              "RelativeDocumentMoniker": "NT106-Q14-DoAnGroup08\\Staff_ComputerManagement.cs",
+              "ToolTip": "D:\\deadline\\DOAN\\NT106-Q14-DoAn\\NT106-Q14-DoAnGroup08\\Staff_ComputerManagement.cs [Design]*",
+              "RelativeToolTip": "NT106-Q14-DoAnGroup08\\Staff_ComputerManagement.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T05:06:39.128Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

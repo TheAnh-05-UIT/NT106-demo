@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Employee_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Employee_management.Designer.cs">
+      <DependentUpon>Admin_Employee_management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Staff_ComputerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff_ComputerManagement.Designer.cs">
+      <DependentUpon>Staff_ComputerManagement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Employee_management.resx">
+      <DependentUpon>Admin_Employee_management.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +115,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Staff_ComputerManagement.resx">
+      <DependentUpon>Staff_ComputerManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
