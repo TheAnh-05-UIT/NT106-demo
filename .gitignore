@@ -4,6 +4,7 @@
 *.user
 *.suo
 *.sln.docstates
+obj/
 
 # Build results
 [Bb]in/
