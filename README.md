@@ -1,9 +1,9 @@
-# ỨNG DỤNG QUẢN LÝ QUÁN NET (NT106.Q14 NHÓM 8)
+  # ỨNG DỤNG QUẢN LÝ QUÁN NET (NT106.Q14 NHÓM 8)
 ## THÔNG TIN ĐỒ ÁN
 Đồ án của nhóm 8.
 > Lớp học: NT106.Q14 UIT VNUHCM 2025
 
->Giáo viên hướng dẫn: ThS. Lê Minh Khánh Hội
+> Giáo viên hướng dẫn: ThS. Lê Minh Khánh Hội
 
 ## MÔ TẢ ĐỒ ÁN
 Xây dựng hệ thống 3 client bao gồm: admin, nhân viên, khách hàng. 
