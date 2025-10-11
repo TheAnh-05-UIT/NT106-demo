@@ -16,5 +16,10 @@ namespace NT106_Q14_DoAnGroup08
         {
             InitializeComponent();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
