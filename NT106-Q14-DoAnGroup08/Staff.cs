@@ -13,10 +13,12 @@ namespace NT106_Q14_DoAnGroup08
     public partial class Staff : Form
     {
         private Staff_ImportGood ImportGood;
+        private Staff_Menu Menu;
         public Staff()
         {
             InitializeComponent();
             ImportGood = new Staff_ImportGood();
+            Menu = new Staff_Menu();
             ShowUserControl(ImportGood);
         }
 
@@ -42,6 +44,11 @@ namespace NT106_Q14_DoAnGroup08
         private void ImportGoodButton_Click(object sender, EventArgs e)
         {
             ShowUserControl(ImportGood);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(Menu);
         }
     }
 }

@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.ButtonGroup = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.ImportGoodButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.UserPanel = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.ButtonGroup.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +54,15 @@
             this.ButtonGroup.TabStop = false;
             this.ButtonGroup.Text = "Trang";
             this.ButtonGroup.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(6, 351);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 60);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Tài khoản";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -91,6 +100,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Thực đơn";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -108,15 +118,6 @@
             this.UserPanel.Name = "UserPanel";
             this.UserPanel.Size = new System.Drawing.Size(1033, 640);
             this.UserPanel.TabIndex = 2;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(6, 351);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 60);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Tài khoản";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Staff
             // 
