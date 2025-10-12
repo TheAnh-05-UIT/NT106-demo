@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Staff_Menu : UserControl
+    public partial class uc_Staff_ImportGood : UserControl
     {
-        public Staff_Menu()
+        public uc_Staff_ImportGood()
         {
             InitializeComponent();
         }
 
-        private void groupBox3_Enter(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

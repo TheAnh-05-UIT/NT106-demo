@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Staff_ImportGood : UserControl
+    public partial class frm_Staff_ComputerManagement : Form
     {
-        public Staff_ImportGood()
+        public frm_Staff_ComputerManagement()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

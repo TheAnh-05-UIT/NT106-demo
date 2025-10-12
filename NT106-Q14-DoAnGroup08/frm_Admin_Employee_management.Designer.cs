@@ -1,6 +1,6 @@
 ﻿namespace NT106_Q14_DoAnGroup08
 {
-    partial class Admin_Employee_management
+    partial class frm_Admin_Employee_management
     {
         /// <summary>
         /// Required designer variable.
