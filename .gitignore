@@ -5,6 +5,7 @@
 *.suo
 *.sln.docstates
 obj/
+.paket/paket.exe
 
 # Build results
 [Bb]in/
