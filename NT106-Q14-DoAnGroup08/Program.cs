@@ -16,7 +16,7 @@ namespace NT106_Q14_DoAnGroup08
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Customer_FoodMenu());
+            Application.Run(new Customer());
         }
     }
 }
