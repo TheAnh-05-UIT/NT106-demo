@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Customer : Form
+    public partial class frm_Customer : Form
     {
-        public Customer()
+        public frm_Customer()
         {
             InitializeComponent();
         }
@@ -29,13 +29,13 @@ namespace NT106_Q14_DoAnGroup08
 
         private void btn_Chat_Click(object sender, EventArgs e)
         {
-            Customer_Chat f = new Customer_Chat();
+            frm_Customer_Chat f = new frm_Customer_Chat();
             f.ShowDialog();
         }
 
         private void btn_FoodMenu_Click(object sender, EventArgs e)
         {
-            Customer_FoodMenu f = new Customer_FoodMenu();
+            frm_Customer_FoodMenu f = new frm_Customer_FoodMenu();
             f.ShowDialog();
         }
 
@@ -46,7 +46,7 @@ namespace NT106_Q14_DoAnGroup08
 
         private void btn_TopUp_Click(object sender, EventArgs e)
         {
-            Customer_TopUp f = new Customer_TopUp();
+            frm_Customer_TopUp f = new frm_Customer_TopUp();
             f.ShowDialog();
         }
     }

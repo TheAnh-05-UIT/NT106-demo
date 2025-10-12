@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
-      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -52,82 +49,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin_Employee_management.cs">
+    <Compile Include="frm_Admin_Employee_management.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin_Employee_management.Designer.cs">
-      <DependentUpon>Admin_Employee_management.cs</DependentUpon>
+    <Compile Include="frm_Admin_Employee_management.Designer.cs">
+      <DependentUpon>frm_Admin_Employee_management.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer.cs">
+    <Compile Include="frm_Customer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer.Designer.cs">
-      <DependentUpon>Customer.cs</DependentUpon>
+    <Compile Include="frm_Customer.Designer.cs">
+      <DependentUpon>frm_Customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer_Chat.cs">
+    <Compile Include="frm_Customer_Chat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer_Chat.Designer.cs">
-      <DependentUpon>Customer_Chat.cs</DependentUpon>
+    <Compile Include="frm_Customer_Chat.Designer.cs">
+      <DependentUpon>frm_Customer_Chat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer_FoodMenu.cs">
+    <Compile Include="frm_Customer_FoodMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer_FoodMenu.Designer.cs">
-      <DependentUpon>Customer_FoodMenu.cs</DependentUpon>
+    <Compile Include="frm_Customer_FoodMenu.Designer.cs">
+      <DependentUpon>frm_Customer_FoodMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer_TopUp.cs">
+    <Compile Include="frm_Customer_TopUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer_TopUp.Designer.cs">
-      <DependentUpon>Customer_TopUp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_Customer_TopUp.Designer.cs">
+      <DependentUpon>frm_Customer_TopUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Staff.cs">
+    <Compile Include="frm_Staff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Staff.Designer.cs">
-      <DependentUpon>Staff.cs</DependentUpon>
+    <Compile Include="frm_Staff.Designer.cs">
+      <DependentUpon>frm_Staff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Staff_ImportGood.cs">
+    <Compile Include="uc_Staff_ImportGood.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Staff_ImportGood.Designer.cs">
-      <DependentUpon>Staff_ImportGood.cs</DependentUpon>
+    <Compile Include="uc_Staff_ImportGood.Designer.cs">
+      <DependentUpon>uc_Staff_ImportGood.cs</DependentUpon>
     </Compile>
-    <Compile Include="Staff_ComputerManagement.cs">
+    <Compile Include="frm_Staff_ComputerManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Staff_ComputerManagement.Designer.cs">
-      <DependentUpon>Staff_ComputerManagement.cs</DependentUpon>
+    <Compile Include="frm_Staff_ComputerManagement.Designer.cs">
+      <DependentUpon>frm_Staff_ComputerManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Staff_Menu.cs">
+    <Compile Include="uc_Staff_Menu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Staff_Menu.Designer.cs">
-      <DependentUpon>Staff_Menu.cs</DependentUpon>
+    <Compile Include="uc_Staff_Menu.Designer.cs">
+      <DependentUpon>uc_Staff_Menu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Admin_Employee_management.resx">
-      <DependentUpon>Admin_Employee_management.cs</DependentUpon>
+    <Compile Include="uc_Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_Product.Designer.cs">
+      <DependentUpon>uc_Product.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_Admin_Employee_management.resx">
+      <DependentUpon>frm_Admin_Employee_management.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer.resx">
-      <DependentUpon>Customer.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Customer.resx">
+      <DependentUpon>frm_Customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer_Chat.resx">
-      <DependentUpon>Customer_Chat.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Customer_Chat.resx">
+      <DependentUpon>frm_Customer_Chat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer_FoodMenu.resx">
-      <DependentUpon>Customer_FoodMenu.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Customer_FoodMenu.resx">
+      <DependentUpon>frm_Customer_FoodMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer_TopUp.resx">
-      <DependentUpon>Customer_TopUp.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Customer_TopUp.resx">
+      <DependentUpon>frm_Customer_TopUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -139,18 +136,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Staff_ComputerManagement.resx">
-      <DependentUpon>Staff_ComputerManagement.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Staff_ComputerManagement.resx">
+      <DependentUpon>frm_Staff_ComputerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_Product.resx">
+      <DependentUpon>uc_Product.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
-    <EmbeddedResource Include="Staff.resx">
-      <DependentUpon>Staff.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Staff.resx">
+      <DependentUpon>frm_Staff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Staff_ImportGood.resx">
-      <DependentUpon>Staff_ImportGood.cs</DependentUpon>
+    <EmbeddedResource Include="uc_Staff_ImportGood.resx">
+      <DependentUpon>uc_Staff_ImportGood.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Staff_Menu.resx">
-      <DependentUpon>Staff_Menu.cs</DependentUpon>
+    <EmbeddedResource Include="uc_Staff_Menu.resx">
+      <DependentUpon>uc_Staff_Menu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -247,4 +247,107 @@
     <None Include="Resources\power-button.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Choose>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.0' Or $(TargetFrameworkVersion) == 'v4.0.3')">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net40\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6')">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net45\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.6.1' Or $(TargetFrameworkVersion) == 'v4.6.2' Or $(TargetFrameworkVersion) == 'v4.6.3' Or $(TargetFrameworkVersion) == 'v4.7' Or $(TargetFrameworkVersion) == 'v4.7.1')">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net461\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.7.2'">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.8' Or $(TargetFrameworkVersion) == 'v4.8.1')">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETCoreApp' And (($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '8.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows'))">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net6.0-windows7.0\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETCoreApp' And (($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '8.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows'))">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\net7.0-windows7.0\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETCoreApp' And ($(TargetFrameworkVersion) == 'v3.1' Or $(TargetFrameworkVersion) == 'v5.0' Or $(TargetFrameworkVersion) == 'v6.0' Or $(TargetFrameworkVersion) == 'v7.0' Or $(TargetFrameworkVersion) == 'v8.0' Or $(TargetFrameworkVersion) == 'v9.0' Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '8.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'watchos') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'watchos') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'watchos') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'watchos'))">
+      <ItemGroup>
+        <Reference Include="Guna.UI2">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\guna.ui2.winforms\2.0.4.7\lib\netcoreapp3.1\Guna.UI2.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETCoreApp' And ($(TargetFrameworkVersion) == 'v8.0' Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v8.0' And '$(TargetPlatformIdentifier)' == 'watchos'))">
+      <ItemGroup>
+        <Reference Include="System.CodeDom">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\system.codedom\9.0.9\lib\net8.0\System.CodeDom.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETCoreApp' And $(TargetFrameworkVersion) == 'v9.0'">
+      <ItemGroup>
+        <Reference Include="System.CodeDom">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\system.codedom\9.0.9\lib\net9.0\System.CodeDom.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETCoreApp' And ($(TargetFrameworkVersion) == 'v3.1' Or $(TargetFrameworkVersion) == 'v5.0' Or $(TargetFrameworkVersion) == 'v6.0' Or $(TargetFrameworkVersion) == 'v7.0' Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '8.0') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'Windows') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v5.0' And '$(TargetPlatformIdentifier)' == 'watchos') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '8.0') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'Windows') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v6.0' And '$(TargetPlatformIdentifier)' == 'watchos') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.17763.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.18362.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '10.0.19041.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows' And '$(TargetPlatformVersion)' == '8.0') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'Windows') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'android') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'ios') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'macos') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'tvos') Or ($(TargetFrameworkVersion) == 'v7.0' And '$(TargetPlatformIdentifier)' == 'watchos'))">
+      <ItemGroup>
+        <Reference Include="System.CodeDom">
+          <HintPath>..\..\..\..\..\..\..\.nuget\packages\system.codedom\9.0.9\lib\netstandard2.0\System.CodeDom.dll</HintPath>
+          <Private>True</Private>
+          <Paket>True</Paket>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
 </Project>

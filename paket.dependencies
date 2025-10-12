@@ -1,0 +1,4 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+nuget Guna.UI2.WinForms 2.0.4.7

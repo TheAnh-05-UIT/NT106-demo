@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Staff_ImportGood : UserControl
+    public partial class frm_Customer_Chat : Form
     {
-        public Staff_ImportGood()
+        public frm_Customer_Chat()
         {
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void btn_SendMessage_Click(object sender, EventArgs e)
         {
 
         }

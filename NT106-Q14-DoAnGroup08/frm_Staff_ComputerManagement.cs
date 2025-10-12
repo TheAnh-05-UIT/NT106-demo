@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Staff_Menu : UserControl
+    public partial class frm_Staff_ComputerManagement : Form
     {
-        public Staff_Menu()
+        public frm_Staff_ComputerManagement()
         {
             InitializeComponent();
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }

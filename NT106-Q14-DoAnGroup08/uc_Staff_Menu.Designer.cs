@@ -1,6 +1,6 @@
 ﻿namespace NT106_Q14_DoAnGroup08
 {
-    partial class Staff_Menu
+    partial class uc_Staff_Menu
     {
         /// <summary> 
         /// Required designer variable.

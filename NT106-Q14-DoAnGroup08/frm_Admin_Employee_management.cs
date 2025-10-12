@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Staff_ComputerManagement : Form
+    public partial class frm_Admin_Employee_management : Form
     {
-        public Staff_ComputerManagement()
+        public frm_Admin_Employee_management()
         {
             InitializeComponent();
         }

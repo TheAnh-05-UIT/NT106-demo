@@ -1,6 +1,6 @@
 ﻿namespace NT106_Q14_DoAnGroup08
 {
-    partial class Staff_ImportGood
+    partial class uc_Staff_ImportGood
     {
         /// <summary> 
         /// Required designer variable.

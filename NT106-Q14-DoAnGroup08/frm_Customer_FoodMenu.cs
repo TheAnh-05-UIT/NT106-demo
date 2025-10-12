@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Customer_FoodMenu : Form
+    public partial class frm_Customer_FoodMenu : Form
     {
-        public Customer_FoodMenu()
+        public frm_Customer_FoodMenu()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace NT106_Q14_DoAnGroup08
 {
-    partial class Staff
+    partial class frm_Staff
     {
         /// <summary>
         /// Required designer variable.

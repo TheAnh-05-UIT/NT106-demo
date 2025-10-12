@@ -10,15 +10,15 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Staff : Form
+    public partial class frm_Staff : Form
     {
-        private Staff_ImportGood ImportGood;
-        private Staff_Menu Menu;
-        public Staff()
+        private uc_Staff_ImportGood ImportGood;
+        private uc_Staff_Menu Menu;
+        public frm_Staff()
         {
             InitializeComponent();
-            ImportGood = new Staff_ImportGood();
-            Menu = new Staff_Menu();
+            ImportGood = new uc_Staff_ImportGood();
+            Menu = new uc_Staff_Menu();
             ShowUserControl(ImportGood);
         }
 
