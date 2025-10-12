@@ -16,5 +16,45 @@ namespace NT106_Q14_DoAnGroup08
         {
             InitializeComponent();
         }
+
+        private void btn_TopUp_5000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_5000.Text;
+        }
+
+        private void btn_TopUp_10000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_10000.Text;
+        }
+
+        private void btn_TopUp_20000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_20000.Text;
+        }
+
+        private void btn_TopUp_30000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_30000.Text;
+        }
+
+        private void btn_TopUp_50000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_50000.Text;
+        }
+
+        private void btn_TopUp_100000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_100000.Text;
+        }
+
+        private void btn_TopUp_200000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_200000.Text;
+        }
+
+        private void btn_TopUp_500000_Click(object sender, EventArgs e)
+        {
+            txt_TopUp.Text = btn_TopUp_500000.Text;
+        }
     }
 }

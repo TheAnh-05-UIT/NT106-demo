@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -118,6 +124,7 @@
     <EmbeddedResource Include="Staff_ComputerManagement.resx">
       <DependentUpon>Staff_ComputerManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -181,6 +188,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mi_nuoc.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mi_nuoc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sting_vang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mi_kho_trung.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com_tron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant-icon-design-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-button.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
