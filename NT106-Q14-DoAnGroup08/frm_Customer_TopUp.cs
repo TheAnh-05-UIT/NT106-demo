@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Customer_TopUp : Form
+    public partial class frm_Customer_TopUp : Form
     {
-        public Customer_TopUp()
+        public frm_Customer_TopUp()
         {
             InitializeComponent();
         }

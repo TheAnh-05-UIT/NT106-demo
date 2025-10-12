@@ -114,6 +114,12 @@
     <Compile Include="Staff_Menu.Designer.cs">
       <DependentUpon>Staff_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="uc_Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_Product.Designer.cs">
+      <DependentUpon>uc_Product.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admin_Employee_management.resx">
       <DependentUpon>Admin_Employee_management.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +147,9 @@
     </Compile>
     <EmbeddedResource Include="Staff_ComputerManagement.resx">
       <DependentUpon>Staff_ComputerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_Product.resx">
+      <DependentUpon>uc_Product.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <EmbeddedResource Include="Staff.resx">

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106_Q14_DoAnGroup08
 {
-    public partial class Customer_Chat : Form
+    public partial class frm_Customer_Chat : Form
     {
-        public Customer_Chat()
+        public frm_Customer_Chat()
         {
             InitializeComponent();
         }
