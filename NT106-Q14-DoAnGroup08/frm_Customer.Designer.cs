@@ -1,6 +1,6 @@
 ﻿namespace NT106_Q14_DoAnGroup08
 {
-    partial class Customer
+    partial class frm_Customer
     {
         /// <summary>
         /// Required designer variable.

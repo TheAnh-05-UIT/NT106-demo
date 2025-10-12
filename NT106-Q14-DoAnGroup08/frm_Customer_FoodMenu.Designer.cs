@@ -1,6 +1,6 @@
 ﻿namespace NT106_Q14_DoAnGroup08
 {
-    partial class Customer_FoodMenu
+    partial class frm_Customer_FoodMenu
     {
         /// <summary>
         /// Required designer variable.
