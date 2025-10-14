@@ -6,7 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.Design.WebControls;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
 
 namespace NT106_Q14_DoAnGroup08
 {
@@ -49,6 +51,17 @@ namespace NT106_Q14_DoAnGroup08
         private void button2_Click(object sender, EventArgs e)
         {
             ShowUserControl(Menu);
+        }
+
+        private void btnQuanLyMay_Click(object sender, EventArgs e)
+        {
+            frm_Staff_ComputerManagement f = new frm_Staff_ComputerManagement();
+            f.TopLevel = false;
+            f.FormBorderStyle = FormBorderStyle.None;
+            f.Dock = DockStyle.Fill;
+            UserPanel.Controls.Clear();
+            UserPanel.Controls.Add(f);
+            f.Show();
         }
     }
 }

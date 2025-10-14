@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableMain = new System.Windows.Forms.TableLayoutPanel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnNaptien = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnRefresh = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRepair = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddAccount = new Guna.UI2.WinForms.Guna2Button();
             this.dgvAccCustomers = new System.Windows.Forms.DataGridView();
             this.colID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,8 +46,10 @@
             this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colUser = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPass = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.tableMain.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccCustomers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +68,7 @@
             this.tableMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.tableMain.Size = new System.Drawing.Size(884, 561);
+            this.tableMain.Size = new System.Drawing.Size(916, 561);
             this.tableMain.TabIndex = 0;
             // 
             // lblTitle
@@ -75,90 +79,166 @@
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(3, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(878, 56);
+            this.lblTitle.Size = new System.Drawing.Size(910, 56);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "QUẢN LÝ TÀI KHOẢN KHÁCH HÀNG";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.btnNaptien);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.txtSearch);
-            this.panel1.Controls.Add(this.btnSearch);
-            this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Controls.Add(this.btnRefresh);
-            this.panel1.Controls.Add(this.btnEdit);
-            this.panel1.Controls.Add(this.btnAdd);
+            this.panel1.Controls.Add(this.btnDelete);
+            this.panel1.Controls.Add(this.btnRepair);
+            this.panel1.Controls.Add(this.btnAddAccount);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 59);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(878, 78);
+            this.panel1.Size = new System.Drawing.Size(910, 78);
             this.panel1.TabIndex = 1;
             // 
-            // btnAdd
+            // btnNaptien
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.LightGray;
-            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(5, 18);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(124, 36);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Thêm tài khoản";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnNaptien.AutoRoundedCorners = true;
+            this.btnNaptien.BackColor = System.Drawing.Color.Transparent;
+            this.btnNaptien.BorderRadius = 20;
+            this.btnNaptien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNaptien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNaptien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNaptien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNaptien.FillColor = System.Drawing.Color.PaleTurquoise;
+            this.btnNaptien.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNaptien.ForeColor = System.Drawing.Color.Black;
+            this.btnNaptien.HoverState.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnNaptien.Location = new System.Drawing.Point(485, 16);
+            this.btnNaptien.Name = "btnNaptien";
+            this.btnNaptien.Size = new System.Drawing.Size(113, 42);
+            this.btnNaptien.TabIndex = 13;
+            this.btnNaptien.Text = "Nạp tiền";
             // 
-            // btnEdit
+            // pictureBox1
             // 
-            this.btnEdit.BackColor = System.Drawing.Color.LightGray;
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.Location = new System.Drawing.Point(135, 18);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(124, 36);
-            this.btnEdit.TabIndex = 1;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = false;
-            // 
-            // btnRefresh
-            // 
-            this.btnRefresh.BackColor = System.Drawing.Color.LightGray;
-            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Location = new System.Drawing.Point(395, 18);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(124, 36);
-            this.btnRefresh.TabIndex = 2;
-            this.btnRefresh.Text = "Làm mới ";
-            this.btnRefresh.UseVisualStyleBackColor = false;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.LightGray;
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(265, 18);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(124, 36);
-            this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.BackColor = System.Drawing.Color.LightGray;
-            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(525, 18);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(124, 36);
-            this.btnSearch.TabIndex = 4;
-            this.btnSearch.Text = "Tìm kiếm";
-            this.btnSearch.UseVisualStyleBackColor = false;
+            this.pictureBox1.Image = global::NT106_Q14_DoAnGroup08.Properties.Resources._1;
+            this.pictureBox1.Location = new System.Drawing.Point(859, 24);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
             // 
             // txtSearch
             // 
-            this.txtSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(655, 25);
+            this.txtSearch.BackColor = System.Drawing.Color.White;
+            this.txtSearch.BorderRadius = 15;
+            this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearch.DefaultText = "";
+            this.txtSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearch.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearch.Location = new System.Drawing.Point(653, 22);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(200, 25);
-            this.txtSearch.TabIndex = 5;
+            this.txtSearch.PlaceholderText = "";
+            this.txtSearch.SelectedText = "";
+            this.txtSearch.Size = new System.Drawing.Size(200, 36);
+            this.txtSearch.TabIndex = 11;
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.AutoRoundedCorners = true;
+            this.btnRefresh.BackColor = System.Drawing.Color.White;
+            this.btnRefresh.BorderRadius = 20;
+            this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRefresh.FillColor = System.Drawing.Color.PaleTurquoise;
+            this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.ForeColor = System.Drawing.Color.Black;
+            this.btnRefresh.HoverState.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnRefresh.Location = new System.Drawing.Point(366, 16);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(113, 42);
+            this.btnRefresh.TabIndex = 9;
+            this.btnRefresh.Text = "Làm mới";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.AutoRoundedCorners = true;
+            this.btnDelete.BackColor = System.Drawing.Color.White;
+            this.btnDelete.BorderRadius = 20;
+            this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDelete.FillColor = System.Drawing.Color.PaleTurquoise;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.Black;
+            this.btnDelete.HoverState.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnDelete.Location = new System.Drawing.Point(247, 16);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(113, 42);
+            this.btnDelete.TabIndex = 8;
+            this.btnDelete.Text = "Xóa";
+            // 
+            // btnRepair
+            // 
+            this.btnRepair.AutoRoundedCorners = true;
+            this.btnRepair.BackColor = System.Drawing.Color.White;
+            this.btnRepair.BorderRadius = 20;
+            this.btnRepair.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRepair.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRepair.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRepair.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRepair.FillColor = System.Drawing.Color.PaleTurquoise;
+            this.btnRepair.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRepair.ForeColor = System.Drawing.Color.Black;
+            this.btnRepair.HoverState.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnRepair.Location = new System.Drawing.Point(128, 16);
+            this.btnRepair.Name = "btnRepair";
+            this.btnRepair.Size = new System.Drawing.Size(113, 42);
+            this.btnRepair.TabIndex = 7;
+            this.btnRepair.Text = "Sửa";
+            this.btnRepair.Click += new System.EventHandler(this.btnRepair_Click);
+            // 
+            // btnAddAccount
+            // 
+            this.btnAddAccount.AutoRoundedCorners = true;
+            this.btnAddAccount.BackColor = System.Drawing.Color.White;
+            this.btnAddAccount.BorderRadius = 20;
+            this.btnAddAccount.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddAccount.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddAccount.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddAccount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddAccount.FillColor = System.Drawing.Color.PaleTurquoise;
+            this.btnAddAccount.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAccount.ForeColor = System.Drawing.Color.Black;
+            this.btnAddAccount.HoverState.FillColor = System.Drawing.Color.LightSkyBlue;
+            this.btnAddAccount.Location = new System.Drawing.Point(9, 16);
+            this.btnAddAccount.Name = "btnAddAccount";
+            this.btnAddAccount.Size = new System.Drawing.Size(113, 42);
+            this.btnAddAccount.TabIndex = 6;
+            this.btnAddAccount.Text = "Thêm tài khoản";
+            this.btnAddAccount.Click += new System.EventHandler(this.btnAddAccount_Click);
             // 
             // dgvAccCustomers
             // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAccCustomers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvAccCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAccCustomers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colID,
@@ -172,7 +252,7 @@
             this.dgvAccCustomers.Name = "dgvAccCustomers";
             this.dgvAccCustomers.ReadOnly = true;
             this.dgvAccCustomers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAccCustomers.Size = new System.Drawing.Size(878, 415);
+            this.dgvAccCustomers.Size = new System.Drawing.Size(910, 415);
             this.dgvAccCustomers.TabIndex = 2;
             // 
             // colID
@@ -180,7 +260,7 @@
             this.colID.HeaderText = "Customer ID";
             this.colID.Name = "colID";
             this.colID.ReadOnly = true;
-            this.colID.Width = 90;
+            this.colID.Width = 120;
             // 
             // colName
             // 
@@ -216,20 +296,27 @@
             this.colPass.ReadOnly = true;
             this.colPass.Width = 175;
             // 
+            // directorySearcher1
+            // 
+            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            // 
             // Admin_CustomerAccountManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(916, 561);
             this.Controls.Add(this.tableMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Admin_CustomerAccountManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_CustomerAccountManagement";
+            this.Load += new System.EventHandler(this.Admin_CustomerAccountManagement_Load);
             this.tableMain.ResumeLayout(false);
             this.tableMain.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccCustomers)).EndInit();
             this.ResumeLayout(false);
 
@@ -240,18 +327,20 @@
         private System.Windows.Forms.TableLayoutPanel tableMain;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnRefresh;
-        private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.DataGridView dgvAccCustomers;
+        private Guna.UI2.WinForms.Guna2Button btnRefresh;
+        private Guna.UI2.WinForms.Guna2Button btnDelete;
+        private Guna.UI2.WinForms.Guna2Button btnRepair;
+        private Guna.UI2.WinForms.Guna2Button btnAddAccount;
+        private Guna.UI2.WinForms.Guna2TextBox txtSearch;
         private System.Windows.Forms.DataGridViewTextBoxColumn colID;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colBalance;
         private System.Windows.Forms.DataGridViewTextBoxColumn colStatus;
         private System.Windows.Forms.DataGridViewTextBoxColumn colUser;
         private System.Windows.Forms.DataGridViewTextBoxColumn colPass;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.DirectoryServices.DirectorySearcher directorySearcher1;
+        private Guna.UI2.WinForms.Guna2Button btnNaptien;
     }
 }
