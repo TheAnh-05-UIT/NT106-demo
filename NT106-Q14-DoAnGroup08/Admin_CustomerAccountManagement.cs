@@ -27,9 +27,9 @@ namespace NT106_Q14_DoAnGroup08
         {
            
         
-            dgvAccCustomers.Rows.Add("KH01", "Nguyen Van A", "50,000", "Active", "UserA", "userA@123");
+            dgvAccCustomers.Rows.Add("KH01", "Nguyen Van A", "50000", "Active", "UserA", "userA@123");
             dgvAccCustomers.Rows.Add("KH02", "Tran Thi B", "0","Inactive", "UserB", "userB@123");
-            dgvAccCustomers.Rows.Add("KH03", "Le Van C", "120,000", "Active", "UserC", "userC@123");
+            dgvAccCustomers.Rows.Add("KH03", "Le Van C", "120000", "Active", "UserC", "userC@123");
         
 
     }
@@ -75,6 +75,46 @@ namespace NT106_Q14_DoAnGroup08
                 selectedRow.Cells["colStatus"].Value = editFrom.Status;
                 MessageBox.Show("Dữ liệu đã được thay đổi!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if(dgvAccCustomers.CurrentRow != null)
+            {
+                DialogResult rs = MessageBox.Show("Bạn có chắc chắn muốn xóa người dùng này.", "Thông báo!", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (rs == DialogResult.OK)
+                {
+                    dgvAccCustomers.Rows.Remove(dgvAccCustomers.CurrentRow);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn hàng muốn xóa.", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnNaptien_Click(object sender, EventArgs e)
+        {
+            if(dgvAccCustomers.CurrentRow != null)
+            {
+                DataGridViewRow selectedRow = dgvAccCustomers.CurrentRow;
+                string balance = selectedRow.Cells["colBalance"].Value.ToString();
+                string username = selectedRow.Cells["colUser"].Value.ToString();
+                string status = selectedRow.Cells["colStatus"].Value.ToString();
+                frm_Deposit depositt = new frm_Deposit();
+        
+                depositt.LoadCustomerData(balance,status, username);
+      
+                if(depositt.ShowDialog() == DialogResult.OK)
+                {
+                    selectedRow.Cells["colBalance"].Value = depositt.Balance;
+                    MessageBox.Show("Đã nạp tiền thành công!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn tài khoản khác hàng mà bạn muốn nạp tiền.", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }    
         }
     }
 }

@@ -95,6 +95,12 @@
     <Compile Include="frm_Customer_TopUp.Designer.cs">
       <DependentUpon>frm_Customer_TopUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Deposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Deposit.Designer.cs">
+      <DependentUpon>frm_Deposit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="frm_Staff.cs">
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Customer_TopUp.resx">
       <DependentUpon>frm_Customer_TopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Deposit.resx">
+      <DependentUpon>frm_Deposit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
