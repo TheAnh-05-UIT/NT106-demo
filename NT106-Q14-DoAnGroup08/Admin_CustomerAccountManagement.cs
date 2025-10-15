@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.Design;
 
 namespace NT106_Q14_DoAnGroup08
 {
@@ -50,7 +51,30 @@ namespace NT106_Q14_DoAnGroup08
 
         private void btnRepair_Click(object sender, EventArgs e)
         {
-
+                if(dgvAccCustomers.CurrentRow == null)
+                {
+                    MessageBox.Show("Vui lòng chọn thông khách hàng để sửa!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+            DataGridViewRow selectedRow = dgvAccCustomers.CurrentRow;
+            string id = selectedRow.Cells["colID"].Value.ToString();
+            string name = selectedRow.Cells["colName"].Value.ToString();
+            string balance = selectedRow.Cells["colBalance"].Value.ToString();
+            string username = selectedRow.Cells["colUser"].Value.ToString();
+            string userpassword = selectedRow.Cells["colPass"].Value.ToString();
+            string status = selectedRow.Cells["colStatus"].Value.ToString();
+            frm_AddCustomer editFrom = new frm_AddCustomer();
+            editFrom.Text = "Edit Customer";
+            editFrom.LoadCustomerData(name, balance, status,  username, userpassword);
+            if(editFrom.ShowDialog() == DialogResult.OK)
+            {
+                selectedRow.Cells["colName"].Value = editFrom.CustomerName;
+                selectedRow.Cells["colBalance"].Value = editFrom.Balance;
+                selectedRow.Cells["colUser"].Value = editFrom.userName;
+                selectedRow.Cells["colPass"].Value = editFrom.userPassword;
+                selectedRow.Cells["colStatus"].Value = editFrom.Status;
+                MessageBox.Show("Dữ liệu đã được thay đổi!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

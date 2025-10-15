@@ -26,7 +26,14 @@ namespace NT106_Q14_DoAnGroup08
         {
 
         }
-
+        public void LoadCustomerData(string name, string balance, string status, string username, string userpassword)
+        {
+            txtHoten.Text = name;
+            txtSodu.Text = balance;
+            txtTenDangNhap.Text = username;
+            txtMatKhau.Text = userpassword;
+            cbbTrangthai.Text = status;
+        }
         private void btnSave_Click(object sender, EventArgs e)
         {
             CustomerName = txtHoten.Text;
