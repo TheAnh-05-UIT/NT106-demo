@@ -109,6 +109,12 @@
     <Compile Include="frm_Staff.Designer.cs">
       <DependentUpon>frm_Staff.cs</DependentUpon>
     </Compile>
+    <Compile Include="uc_Staff_Bills.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_Staff_Bills.Designer.cs">
+      <DependentUpon>uc_Staff_Bills.cs</DependentUpon>
+    </Compile>
     <Compile Include="uc_Staff_ImportGood.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </Compile>
     <EmbeddedResource Include="frm_Staff_ComputerManagement.resx">
       <DependentUpon>frm_Staff_ComputerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_Staff_Bills.resx">
+      <DependentUpon>uc_Staff_Bills.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="uc_Product.resx">
       <DependentUpon>uc_Product.cs</DependentUpon>

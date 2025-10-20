@@ -16,11 +16,13 @@ namespace NT106_Q14_DoAnGroup08
     {
         private uc_Staff_ImportGood ImportGood;
         private uc_Staff_Menu Menu;
+        private uc_Staff_Bills Bills;
         public frm_Staff()
         {
             InitializeComponent();
             ImportGood = new uc_Staff_ImportGood();
             Menu = new uc_Staff_Menu();
+            Bills = new uc_Staff_Bills();
             ShowUserControl(ImportGood);
         }
 
@@ -62,6 +64,11 @@ namespace NT106_Q14_DoAnGroup08
             UserPanel.Controls.Clear();
             UserPanel.Controls.Add(f);
             f.Show();
+        }
+
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(Bills);
         }
     }
 }

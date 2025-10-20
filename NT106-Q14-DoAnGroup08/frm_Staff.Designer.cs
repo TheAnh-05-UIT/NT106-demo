@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.ButtonGroup = new System.Windows.Forms.GroupBox();
+            this.ImportGoodButton = new System.Windows.Forms.Button();
             this.btnTaiKhoan = new System.Windows.Forms.Button();
             this.btnChat = new System.Windows.Forms.Button();
             this.btnHoaDon = new System.Windows.Forms.Button();
-            this.ImportGoodButton = new System.Windows.Forms.Button();
             this.btnThucDon = new System.Windows.Forms.Button();
             this.btnQuanLyMay = new System.Windows.Forms.Button();
             this.UserPanel = new System.Windows.Forms.Panel();
@@ -47,63 +47,64 @@
             this.ButtonGroup.Controls.Add(this.btnHoaDon);
             this.ButtonGroup.Controls.Add(this.btnThucDon);
             this.ButtonGroup.Controls.Add(this.btnQuanLyMay);
-            this.ButtonGroup.Location = new System.Drawing.Point(9, 10);
-            this.ButtonGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonGroup.Location = new System.Drawing.Point(12, 12);
+            this.ButtonGroup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ButtonGroup.Name = "ButtonGroup";
-            this.ButtonGroup.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.ButtonGroup.Size = new System.Drawing.Size(70, 511);
+            this.ButtonGroup.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ButtonGroup.Size = new System.Drawing.Size(93, 629);
             this.ButtonGroup.TabIndex = 1;
             this.ButtonGroup.TabStop = false;
             this.ButtonGroup.Text = "Trang";
             this.ButtonGroup.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // ImportGoodButton
+            // 
+            this.ImportGoodButton.Location = new System.Drawing.Point(5, 22);
+            this.ImportGoodButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ImportGoodButton.Name = "ImportGoodButton";
+            this.ImportGoodButton.Size = new System.Drawing.Size(75, 60);
+            this.ImportGoodButton.TabIndex = 2;
+            this.ImportGoodButton.Text = " Nhập hàng";
+            this.ImportGoodButton.UseVisualStyleBackColor = true;
+            this.ImportGoodButton.Click += new System.EventHandler(this.ImportGoodButton_Click);
+            // 
             // btnTaiKhoan
             // 
-            this.btnTaiKhoan.Location = new System.Drawing.Point(4, 285);
-            this.btnTaiKhoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTaiKhoan.Location = new System.Drawing.Point(5, 351);
+            this.btnTaiKhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTaiKhoan.Name = "btnTaiKhoan";
-            this.btnTaiKhoan.Size = new System.Drawing.Size(56, 49);
+            this.btnTaiKhoan.Size = new System.Drawing.Size(75, 60);
             this.btnTaiKhoan.TabIndex = 5;
             this.btnTaiKhoan.Text = "Tài khoản";
             this.btnTaiKhoan.UseVisualStyleBackColor = true;
             // 
             // btnChat
             // 
-            this.btnChat.Location = new System.Drawing.Point(4, 232);
-            this.btnChat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChat.Location = new System.Drawing.Point(5, 286);
+            this.btnChat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChat.Name = "btnChat";
-            this.btnChat.Size = new System.Drawing.Size(56, 49);
+            this.btnChat.Size = new System.Drawing.Size(75, 60);
             this.btnChat.TabIndex = 4;
             this.btnChat.Text = "Chat";
             this.btnChat.UseVisualStyleBackColor = true;
             // 
             // btnHoaDon
             // 
-            this.btnHoaDon.Location = new System.Drawing.Point(4, 178);
-            this.btnHoaDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHoaDon.Location = new System.Drawing.Point(5, 219);
+            this.btnHoaDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHoaDon.Name = "btnHoaDon";
-            this.btnHoaDon.Size = new System.Drawing.Size(56, 49);
+            this.btnHoaDon.Size = new System.Drawing.Size(75, 60);
             this.btnHoaDon.TabIndex = 3;
             this.btnHoaDon.Text = "Hóa đơn";
             this.btnHoaDon.UseVisualStyleBackColor = true;
-            // 
-            // ImportGoodButton
-            // 
-            this.ImportGoodButton.Location = new System.Drawing.Point(4, 18);
-            this.ImportGoodButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.ImportGoodButton.Name = "ImportGoodButton";
-            this.ImportGoodButton.Size = new System.Drawing.Size(56, 49);
-            this.ImportGoodButton.TabIndex = 2;
-            this.ImportGoodButton.Text = " Nhập hàng";
-            this.ImportGoodButton.UseVisualStyleBackColor = true;
-            this.ImportGoodButton.Click += new System.EventHandler(this.ImportGoodButton_Click);
+            this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
             // btnThucDon
             // 
-            this.btnThucDon.Location = new System.Drawing.Point(4, 71);
-            this.btnThucDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThucDon.Location = new System.Drawing.Point(5, 87);
+            this.btnThucDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThucDon.Name = "btnThucDon";
-            this.btnThucDon.Size = new System.Drawing.Size(56, 49);
+            this.btnThucDon.Size = new System.Drawing.Size(75, 60);
             this.btnThucDon.TabIndex = 1;
             this.btnThucDon.Text = "Thực đơn";
             this.btnThucDon.UseVisualStyleBackColor = true;
@@ -111,10 +112,10 @@
             // 
             // btnQuanLyMay
             // 
-            this.btnQuanLyMay.Location = new System.Drawing.Point(4, 124);
-            this.btnQuanLyMay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnQuanLyMay.Location = new System.Drawing.Point(5, 153);
+            this.btnQuanLyMay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuanLyMay.Name = "btnQuanLyMay";
-            this.btnQuanLyMay.Size = new System.Drawing.Size(56, 49);
+            this.btnQuanLyMay.Size = new System.Drawing.Size(75, 60);
             this.btnQuanLyMay.TabIndex = 0;
             this.btnQuanLyMay.Text = "Quản lý máy";
             this.btnQuanLyMay.UseVisualStyleBackColor = true;
@@ -123,21 +124,21 @@
             // UserPanel
             // 
             this.UserPanel.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.UserPanel.Location = new System.Drawing.Point(83, 10);
-            this.UserPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserPanel.Location = new System.Drawing.Point(111, 12);
+            this.UserPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserPanel.Name = "UserPanel";
-            this.UserPanel.Size = new System.Drawing.Size(775, 520);
+            this.UserPanel.Size = new System.Drawing.Size(1033, 640);
             this.UserPanel.TabIndex = 2;
             // 
             // frm_Staff
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(867, 540);
+            this.ClientSize = new System.Drawing.Size(1156, 665);
             this.Controls.Add(this.UserPanel);
             this.Controls.Add(this.ButtonGroup);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frm_Staff";
             this.Text = "Staff App";
             this.Load += new System.EventHandler(this.Staff_Load);
