@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NT106_Q14_DoAnGroup08.DAO;
 
 namespace NT106_Q14_DoAnGroup08
 {
@@ -22,9 +23,10 @@ namespace NT106_Q14_DoAnGroup08
             this.Close();
         }
 
-        private void Customer_FoodMenu_Load(object sender, EventArgs e)
+        private void frm_Customer_FoodMenu_Load(object sender, EventArgs e)
         {
             guna2DataGridView1.BorderStyle = BorderStyle.FixedSingle;
+            CategoryDAO.Instance.AddCategory(CategoryPanel1);
         }
     }
 }
