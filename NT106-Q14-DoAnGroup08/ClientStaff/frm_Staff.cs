@@ -10,7 +10,7 @@ using System.Web.UI.Design.WebControls;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
 
-namespace NT106_Q14_DoAnGroup08
+namespace NT106_Q14_DoAnGroup08.ClientStaff
 {
     public partial class frm_Staff : Form
     {

@@ -27,7 +27,7 @@ namespace QuanLyQuanNet.DAO
         {
             DataTable data = new DataTable();
 
-            using (System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(connectionstr)) 
+            using (System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(connectionstr))
             {
                 connection.Open();
 

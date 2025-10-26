@@ -1,4 +1,4 @@
-﻿namespace NT106_Q14_DoAnGroup08
+﻿namespace NT106_Q14_DoAnGroup08.ClientAdmin
 {
     partial class frm_Admin_Employee_management
     {

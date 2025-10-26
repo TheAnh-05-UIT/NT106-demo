@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NT106_Q14_DoAnGroup08.DAO;
 
-namespace NT106_Q14_DoAnGroup08
+namespace NT106_Q14_DoAnGroup08.ClientCustomer
 {
     public partial class frm_Customer_FoodMenu : Form
     {

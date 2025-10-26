@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
 
-namespace NT106_Q14_DoAnGroup08
+namespace NT106_Q14_DoAnGroup08.ClientAdmin
 {
     public partial class Admin_CustomerAccountManagement : Form
     {
@@ -36,7 +36,7 @@ namespace NT106_Q14_DoAnGroup08
 
         private void btnAddAccount_Click(object sender, EventArgs e)
         {
-            frm_AddCustomer addUser = new frm_AddCustomer();
+            ClientCustomer.frm_AddCustomer addUser = new ClientCustomer.frm_AddCustomer();
             if(addUser.ShowDialog() == DialogResult.OK)
             {
                 string name = addUser.CustomerName;
@@ -63,7 +63,7 @@ namespace NT106_Q14_DoAnGroup08
             string username = selectedRow.Cells["colUser"].Value.ToString();
             string userpassword = selectedRow.Cells["colPass"].Value.ToString();
             string status = selectedRow.Cells["colStatus"].Value.ToString();
-            frm_AddCustomer editFrom = new frm_AddCustomer();
+            ClientCustomer.frm_AddCustomer editFrom = new ClientCustomer.frm_AddCustomer();
             editFrom.Text = "Edit Customer";
             editFrom.LoadCustomerData(name, balance, status,  username, userpassword);
             if(editFrom.ShowDialog() == DialogResult.OK)

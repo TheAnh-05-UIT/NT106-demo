@@ -28,7 +28,7 @@ namespace NT106_Q14_DoAnGroup08.DAO
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             CategoryPanel.Controls.Clear();
 
-            if (dt.Rows.Count > 0) 
+            if (dt.Rows.Count > 0)
             {
                 foreach (DataRow row in dt.Rows)
                 {

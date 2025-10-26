@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace NT106_Q14_DoAnGroup08
 {
     public partial class frm_Deposit : Form
@@ -36,6 +37,11 @@ namespace NT106_Q14_DoAnGroup08
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void frm_Deposit_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

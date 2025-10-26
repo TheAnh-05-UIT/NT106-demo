@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
 
-namespace NT106_Q14_DoAnGroup08
+namespace NT106_Q14_DoAnGroup08.ClientStaff
 {
-    public partial class frm_Admin_Employee_management : Form
+    public partial class frm_Staff_ComputerManagement : Form
     {
-        public frm_Admin_Employee_management()
+        public frm_Staff_ComputerManagement()
         {
             InitializeComponent();
         }
