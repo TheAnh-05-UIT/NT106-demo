@@ -74,7 +74,7 @@ namespace TcpServer
                 }
 
                 string action = obj.action.ToString();
-                Console.WriteLine($"➡️ Action: {action}");
+                Console.WriteLine($"Action: {action}");
 
                 string response = "";
 
